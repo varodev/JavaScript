@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <label for="seleccion">Eliga una operacion:</label>
+    <select name="operaciones" id="selec-operacion">
+      <option value="imagen">Crear imagen</option>
+      <option value="tabla">Crear tabla</option>
+      <option value="cabecera">Crear cabecera</option>
+    </select>
+
+    <input type="button" value="Pulsar" onclick="realizarOperacion();" />
+
+    <div id="contenido"></div>
+  </body>
+</html>

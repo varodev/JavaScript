@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section {
+  width: 90%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .col-2 {
+  width: 16.66%;
+  padding: 5px;
+}
+
+section .col-8 {
+  width: 66.66%;
+  padding: 5px;
+}
+
+.punto {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  /*.opacidad{
+        opacity:0.5;
+    }*/
+}
+
+.punto img {
+  cursor: pointer;
+}
+/*# sourceMappingURL=estilos.css.map */

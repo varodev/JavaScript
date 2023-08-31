@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<!-- Siempre vamos a tener que crear primero una etiqueta raiz, en este caso agenda, del que parten el resto de etiquetas xml
+Para que se ejecute el ajax, tenemos que meterlo en la carpeta XAMP y abrirlo desde local host-->
+<agenda>
+    <nombre>María</nombre><!-- Este es el tag-->
+    <apellido>Molina</apellido>
+    <direccion>Calle Luis de Salazar 9</direccion>
+    <provincia>Madrid</provincia>
+</agenda>

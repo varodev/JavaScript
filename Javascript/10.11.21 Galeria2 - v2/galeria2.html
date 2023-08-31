@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Galeria2</title>
+</head>
+
+<body>
+    <section class="flex">
+        <div class="col-2">
+            <button class="izq" onclick="fotoDer(event);"><img src="images/flecha-correcta-izq.png" alt=""></button>
+        </div>
+        <div class="col-8">
+            <img src="images/foto1.jpg" alt="" id="fotoMain" width="100%">
+            <div>
+                <h2 id="texto"></h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <button class="der" onclick="fotoIzq(event);"><img src="images/flecha-correcta-der.png" alt=""></button>
+        </div>
+    </section>
+    <div class="dot">
+        <img src="images/circle.jpg" alt="img1" id="0" onclick="cambiarPunto(event);">
+        <img src="images/circle.jpg" alt="img2" id="1" onclick="cambiarPunto(event);">
+        <img src="images/circle.jpg" alt="img3" id="2" onclick="cambiarPunto(event);">
+        <img src="images/circle.jpg" alt="img4" id="3" onclick="cambiarPunto(event);">
+        <img src="images/circle.jpg" alt="img5" id="4" onclick="cambiarPunto(event);">
+        <img src="images/circle.jpg" alt="img6" id="5" onclick="cambiarPunto(event);">
+    </div>
+    <script src="js/js.js "></script>
+</body>
+
+</html>

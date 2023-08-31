@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 50%;
+    margin: 20px auto;
+    background-color: bisque;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+}
+
+section div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+input,
+select {
+    width: 45%;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+[type="button"] {
+    padding: 10px;
+}
+
+.btn {
+    text-align: right;
+}

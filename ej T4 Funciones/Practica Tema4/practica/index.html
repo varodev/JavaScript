@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Posicionamiento con position</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <div id="contenedor">
+      <header>
+        <div id="cabecera"></div>
+      </header>
+      <div id="contenedorCentral">
+        <aside></aside>
+        <div id="principal">
+          <div id="central">
+            <div id="casillas_inicio">
+              <label for="numCasillas">Número de casillas:</label>
+              <input type="number" id="numCasillas" name="numCasillas" />
+              <input
+                type="button"
+                value="Inicializar Casillas"
+                onClick="inicializar_casillas();"
+              />
+              <input
+                type="button"
+                value="Inicializar Juego"
+                onClick="inicializar_juego();"
+              />
+            </div>
+            
+            <div id="container_nombre_usuario">
+              <label>ID usuario:</label>
+              <input type="text" id="username" />
+              <input
+                type="button"
+                value="Tirar Dado"
+                onClick="comenzarJuego();"
+              />
+            </div>
+          </div>
+          <div id="juego"></div>
+        </div>
+        <div id="derecha">
+          <div id="container_puntuacion"></div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>

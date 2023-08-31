@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script type="text/javascript" src="js/ej_4_4.js"></script>
+</head>
+
+<body>
+
+    <label for="selección">Elja operación:</label>
+
+    <select name="operaciones" id="selec-operacion">
+      <option value="imagen">Crear imagen</option>
+      <option value="tabla">Crear tabla</option>
+      <option value="cabecera">Crear cabecera</option>
+    </select>
+
+    <input type=button value="Pulsar" onClick="realizar_operacion();">
+    <input type=button value="Reset" onClick="reset();">
+
+
+    <div id="contenido">
+
+    </div>
+
+</body>
+
+</html>

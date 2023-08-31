@@ -1,0 +1,82 @@
+ /*HEADER*/
+ /*Aqui metemos los estilos generales.
+También tiene que tener cada parte su media Q. 
+Cada uno tendra su media Q*/
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ 
+ nav {
+     background-color: $verde;
+ }
+ /*header {
+    background-color: cadetblue;
+}*/
+ 
+ header {
+     @include SectionClass;
+     text-align: center; //Si le damos este valor, luego se lo tenemos que cambiar en la MQ
+     padding: 15px;
+     nav {
+         a {
+             display: block;
+             @include nav-a;
+             &:hover {
+                 @include nav-a-sobre;
+             }
+         }
+     }
+ }
+ 
+ .centrar {
+     @include centrar;
+ }
+ 
+ @media(min-width:576px) {
+     header {
+         div {
+             text-align: center;
+         }
+     }
+ }
+ 
+ @media(min-width: 768px) {
+     header {
+         div {
+             text-align: left;
+         }
+         nav {
+             a {
+                 display: inline-block;
+                 border-bottom: none;
+             }
+         }
+     }
+ }
+ 
+ @media(min-width: 992px) {
+     header {
+         div {
+             text-align: center;
+         }
+     }
+ }
+ 
+ @media(min-width: 1200px) {
+     header {
+         div {
+             text-align: right;
+         }
+     }
+ }

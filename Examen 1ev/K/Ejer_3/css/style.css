@@ -1,0 +1,12 @@
+
+.normal{
+    font-size: 10px;
+    color : black;
+    font-style: normal;
+}
+
+.resaltado{
+    font-size: 30px;
+    color : red;
+    font-style: italic;
+}

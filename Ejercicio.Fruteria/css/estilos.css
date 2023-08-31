@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 2%;
+}
+
+.btnAgregar {
+    padding: 10px 5px;
+    color: white;
+    display: inline-block;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.btnQuitar {
+    padding: 10px 5px;
+    color: white;
+    display: inline-block;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.carrito {
+    padding: 10px 5px;
+    color: white;
+    display: inline-block;
+    background-color: #a7a7dd;
+    border-radius: 10px;
+}
+
+.espacio {
+    padding: 20px;
+}
+
+.productos {
+    padding: 10px 5px;
+    color: white;
+    background-color: #a7a7dd;
+    border-radius: 10px;
+}
+
+
+/* .col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 58.33%;
+}
+.col-8 {
+    width: 66.66%;
+}
+.col-9 {
+    width: 75%;
+}
+.col-10 {
+    width: 83.33%;
+}
+.col-11 {
+    width: 91.66%;
+}
+.col-12 {
+    width: 100%;
+    padding: 2%;
+}
+}*/
+
+
+/*# sourceMappingURL=estilos.css.map */

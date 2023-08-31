@@ -1,0 +1,28 @@
+#caja_izquierda {
+    width: 200px;
+    height: 150px;
+    border: solid 5px green;
+    position: relative;
+    float: left;
+    margin-top: 150px;
+}
+
+#caja_central {
+    width: 300px;
+    height: 200px;
+    border: solid 5px blue;
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#caja_derecha {
+    width: 400px;
+    height: 300px;
+    border: solid 5px red;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}

@@ -1,0 +1,9 @@
+#resultado {
+    height: 200px;
+    background-color: green;
+}
+
+.grande {
+    font-size: 50px;
+    color: red;
+}

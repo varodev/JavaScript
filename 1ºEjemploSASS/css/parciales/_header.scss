@@ -1,0 +1,61 @@
+/*HEADER*/
+
+
+/*Aqui metemos los estilos generales.
+También tiene que tener cada parte su media Q. 
+Cada uno(cuerpo,header,footer) tendra su media Q*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    background-color: $corporativo-gris;
+    padding: 15px;
+    nav {
+        a {
+            display: block;
+            @include nav-a; //para incluir el mixin(la función) que hemos creado.
+            &:hover {
+                @include nav-a-sobre;
+            }
+        }
+    }
+}
+
+@media(min-width:576px) {}
+
+@media(min-width: 768px) {
+    header {
+        nav {
+            background-color: $corporativo-rojo;
+            a {
+                display: inline-block;
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    header {
+        display: flex;
+        /*Lo ponemos aqui que es donde necesitamos que sea flex*/
+        padding: 15px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media(min-width: 1200px) {}

@@ -1,0 +1,7 @@
+{
+    "listaBicis":[
+    { "bastidor": 1342, "color": "azul","marca": "Orbea", "imagen": "https://www.ghost-bikes.com/fileadmin/_processed_/6/2/csm_ghost-bikes-road-rage-essential-blue-45_bea1ebdbbb.png"},
+    {"bastidor":146,"color": "verde","marca":"BH","imagen":"https://contents.mediadecathlon.com/p1990163/k$42ff3e6eb6bcad7aef75914ecd063574/riverside-500-blue.jpg?format=auto&quality=40&f=800x800"},
+    {"bastidor":356354,"color": "rojo","marca":"TREK","imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwIOnloGBvsom_2vmnmpfYb8kfYeDdRUWDoy8z-b1dE-fK4DMQBkbt7VPPUyLH_1OYWBY&usqp=CAU"}
+    ]
+}

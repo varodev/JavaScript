@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+section{
+    width: 50%;
+    margin: 50px auto;
+    background-color: burlywood;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: right;
+    h1{
+        text-align: center;
+        padding: 20px 10px;
+        margin-bottom: 20px;
+    }
+    div{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #altura,
+    #peso{
+        padding: 5px;
+    }
+    p{
+        color: red;
+        margin-top: 20px;
+    }
+}

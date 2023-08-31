@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Tienda de Guitarras</title>
+</head>
+
+<body>
+
+
+    <section id="destacado">Productos Destacados</section>
+
+    <section id="tienda" class="flex">
+        <h1>Tienda de Guitarras</h1>
+        <h2>Selecciona una categoria</h2>
+        <select name="categoria" id="categoria">  
+            <option value="todo">Todo los productos</option>
+            <option value="guitarra">Guitarra</option>
+            <option value="bajo">Bajo</option>
+            <option value="ukelele">Ukelele</option>
+        
+        </select>
+        <h2>Selecciona un rango de precio</h2>
+        <select name="segundoSelect" id="segundoSelect">
+            <option value="">Escoge...</option>
+            <option value="0">Precios menores 99 euros</option>
+            <option value="1">Precios entre 100-199 euros</option>
+            <option value="2">Precios entre 200-299 euros</option>
+            <option value="3">Precios de más de 300 euros</option>
+
+        </select>
+
+
+    </section>
+    <section id="respuesta">
+
+    </section>
+    <script src="js/tienda.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.contenedor{
+    width: 50%;
+    margin:50px auto ;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    width: 70%;
+    margin: 50px auto;
+}
+form div {
+    margin: 10px 0;
+    text-align: right;
+}
+form div input{
+    width: 70%;
+}
+
+[type="button"]{
+    width: 30%;
+}
+
+div{
+    padding: 5px;
+}

@@ -1,0 +1,12 @@
+        .flex {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                width: 33.33%;
+                margin: 20px;
+                border: 1px solid black;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }

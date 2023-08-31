@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del día</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/jsnuevo.js"></script>
+</head>
+<body>
+    
+    <section>
+        <div>
+            <h1>Elije tu menú</h1>
+            <select name="" id="primer" onchange="primer()">
+                <option value="no" selected>Primer plato</option>
+                <option value="ensalada">Ensalada César 3€</option>
+                <option value="mejillones">Mejillones a la marinera 5€</option>
+            </select>
+        </div>
+
+        <div>
+            <img src="img/menu-del-dia.jpeg" alt="" id = "foto" >
+        </div>
+    </section>
+    <section>
+        <div>
+            <select name="" id="segundo" onchange="segundo();">
+                <option value="no2" selected>Segundo plato</option>
+                <option value="ternera">Filete de tercera con patatas 7€</option>
+                <option value="paella">Paella mixta 6€</option>
+            </select>
+        </div>
+
+        <div>
+            <img src="img/menu-del-dia.jpeg" alt="" id = "foto2" >
+        </div>
+    </section>
+    <section>
+        <div>
+            <select name="" id="postre" onchange="postre();">
+                <option value="no3" selected>Postre</option>
+                <option value="tarta">Tarta de queso 3€</option>
+                <option value="helado">Helado 2€</option>
+            </select>
+        </div>
+
+        <div>
+            <img src="img/menu-del-dia.jpeg" alt="" id = "foto3" >
+        </div>
+    </section>
+    <section>
+        <div>
+           <label for=""><input type="checkbox" name="" id="descuento">Consigue un 10% de descuento</label> 
+        </div>
+    
+        <div>
+            <button onclick="calcular();">Calcula el precio</button>
+            <p id="resultado"></p>
+        </div>
+</section>
+</body>
+</html>

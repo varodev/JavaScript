@@ -1,0 +1,47 @@
+            /*FOOTER*/
+            
+            .minus {
+                @include minus;
+            }
+            
+            .centrar {
+                @include centrar;
+            }
+            
+            .flex {
+                @include flex;
+            }
+            
+            .espacio {
+                @include espacio;
+            }
+            
+            .col-4 {
+                width: 33, 33%;
+            }
+            
+            footer {
+                background-color: $verde;
+            }
+            
+            @media(min-width: 576px) {}
+            
+            @media(min-width: 768px) {
+                .col-4 {
+                    width: 50%;
+                }
+                .col-4footer {
+                    width: 100%;
+                }
+            }
+            
+            @media(min-width: 992px) {}
+            
+            @media(min-width: 1200px) {
+                .col-4 {
+                    width: 33.33%;
+                }
+                .col-4footer {
+                    width: 33.33%;
+                }
+            }

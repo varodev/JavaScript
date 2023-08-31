@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+section{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+section div{
+    width: 50%;
+    padding: 20px;
+}
+
+select{
+    padding: 5px;
+}

@@ -1,0 +1,10 @@
+/*Vamos a empezar a meter los estilos desde Estilos.scss
+ despúes todo lo que pongamos aquí se copiará a la hoja de
+ estilos.css*/
+
+//Este es un comentario Sass y no se verá en la hoja de estilos.
+@import "parciales/variables";
+@import "parciales/generales";
+@import "parciales/header";
+@import "parciales/main";
+@import "parciales/footer";

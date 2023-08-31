@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    width: 90%;
+    margin: 20px auto;
+    .image {
+        display: flex;
+    }
+    .col-2 {
+        width: 16.66%;
+        padding: 5px;
+        img {
+            cursor: pointer;
+            /*para que salga la mano como puntero*/
+        }
+    }
+}
+
+.opacidad {
+    opacity: 0.5;
+}
+
+.activa {
+    border: 2px solid black;
+}
+
+
+/*se lo aplicamos a las imagenes cuando pasemos por encima*/

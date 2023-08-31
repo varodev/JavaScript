@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*https://wireframe.cc/7kaOTf*/
+/*VARIABLES*/
+/*HEADER*/
+/*Aqui metemos los estilos generales.
+También tiene que tener cada parte su media Q. 
+Cada uno(cuerpo,header,footer) tendra su media Q*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  background-color: grey;
+  padding: 15px;
+}
+
+header nav a {
+  display: block;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+
+header nav a:hover {
+  color: red;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  header nav {
+    background-color: red;
+  }
+  header nav a {
+    display: inline-block;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*Lo ponemos aqui que es donde necesitamos que sea flex*/
+    padding: 15px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+/*CUERPO*/
+section.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*&.contenedor {
+    width: 80%;
+}*/
+.col-4,
+.col-6,
+.col-3,
+.col-8 {
+  width: 100%;
+  padding: 2%;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn a {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  padding: 10 px 15 px;
+  border-radius: 10px;
+}
+
+.btn a:hover {
+  color: white;
+  background-color: red;
+}
+
+.btn.gris a {
+  background-color: grey;
+  color: red;
+  border: 1px solid red;
+  padding: 10 px 15 px;
+  border-radius: 10px;
+}
+
+.btn.gris a:hover {
+  color: white;
+  background-color: red;
+}
+
+@media (min-width: 768px) {
+  .col-6,
+  .col-3,
+  .col-8,
+  .col-4 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+}
+
+/*FOOTER*/
+/*@media(min-width:576px){}
+@media(min-width: 768px){}
+@media(min-width: 992px){}
+@media(min-width: 1200px){}*/
+/*  .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+        padding: 2%;
+    }
+}*/
+/*# sourceMappingURL=estilos.css.map */

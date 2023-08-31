@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 300px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-8 {
+    width: 58.33%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+.centrar {
+    text-align: center;
+}

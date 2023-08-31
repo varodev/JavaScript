@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+section{
+    
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    background-color: darkseagreen;
+    text-align: center;
+    
+  
+    div{
+        margin-left: 20px;
+        width: 50%;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+
+    p{
+        
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+}
+.col-4{
+    width:33.33% ;
+}
+  select{
+        padding: 5px;
+    }

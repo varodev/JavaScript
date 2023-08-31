@@ -1,0 +1,87 @@
+/*CUERPO*/
+
+.col-4,
+.col-6,
+.col-3 {
+    width: 100%;
+    padding: 2%;
+}
+
+html {
+    background-image: url("../img/ultima.jpg");
+    background-size: cover;
+}
+
+section {
+    &.flex {
+        //llamamos a la clase que se refiere asi misma
+        @include flex; //incluimos el mixin de flex
+    }
+}
+
+div {
+    p {
+        text-align: center;
+        color: $verde;
+        text-transform: uppercase;
+        font-family: "Roboto";
+    }
+}
+
+h2 {
+    text-align: center;
+    color: rgb(28, 71, 128);
+    font-family: "Lobster";
+    font-size: 200%;
+}
+
+a {
+    color: $blanco;
+}
+
+.btn {
+    @include btn;
+}
+
+.minus {
+    @include minus;
+}
+
+.centrar {
+    @include centrar;
+}
+
+.SectionClass {
+    @include SectionClass;
+}
+
+.p_peces {
+    @include p_peces;
+}
+
+.tamañoLetra {
+    @include tamañoLetra;
+}
+
+.espacioh2 {
+    @include espacioh2;
+}
+
+@media(min-width:576px) {}
+
+@media(min-width: 768px) {
+    .col-3 {
+        width: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    .col-3 {
+        width: 25%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1200px) {}

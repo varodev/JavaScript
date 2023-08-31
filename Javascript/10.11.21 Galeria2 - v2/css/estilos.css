@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 90%;
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .col-8 {
+  width: 66.66%;
+  padding: 5px;
+}
+
+section .col-2 {
+  width: 16.66%;
+  padding: 5px;
+}
+
+.dot {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dot img {
+  cursor: pointer;
+}
+
+.opacidad {
+  opacity: 0.5;
+}
+/*# sourceMappingURL=estilos.css.map */

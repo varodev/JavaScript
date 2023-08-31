@@ -1,0 +1,13 @@
+/*CUERPO*/
+
+section {
+    margin-top: 50px;
+    a {
+        @include boton;
+        &:hover {
+            background-color: white;
+            color: $color-fondo;
+            border: 1px solid $color-fondo;
+        }
+    }
+}

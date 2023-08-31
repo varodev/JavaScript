@@ -1,0 +1,85 @@
+div, aside, header, footer, cabecera, nav{
+	margin-top: 4px;
+	float: left;	
+}
+
+header{
+	width: 100%;
+	background-color: olive;
+}
+
+#cabecera{
+	width: 100%;
+}
+
+#logo{
+	margin-left: 10px;
+}
+#buscador{
+	float: right;
+	margin-top: 40px;
+}
+
+nav{
+	width: 100%;
+	background-color: yellow;
+}
+
+#contenedorCentral{
+	background-color:silver;
+}
+aside{
+	width: 20%;
+	background-color: blue;
+}
+#principal{
+	margin-left: 8px;
+	width: 78%;
+	background-color: cyan;
+	float: right;
+}
+#central{
+	width: 77%;
+	background-color: orange;
+	margin-left: 8px;
+}
+
+#asideArriba{
+	background-color: gray;
+	width: 95%;
+	margin-left: 5px;
+	
+}
+#asideAbajo{
+	background-color: lime;
+	width: 95%;
+	margin-left: 5px;
+}
+#derecha{
+	width: 20%;
+	background-color: brown;
+	margin-left: 4px;
+	
+}
+footer{
+	clear: left;
+	width: 100%;
+	background-color: yellow;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li{
+	float: left;
+}
+
+ul li a{
+	background-color: yellow;
+	display: block;
+	width: 70px;
+}
+p{
+	margin: 5px;
+}

@@ -1,0 +1,67 @@
+/*CUERPO*/
+
+section {
+    &.flex {
+        //llamamos a la clase que se refiere asi misma
+        @include flex; //incluimos el mixin de flex
+    }
+}
+
+
+/*&.contenedor {
+    width: 80%;
+}*/
+
+.col-4,
+.col-6,
+.col-3,
+.col-8 {
+    width: 100%;
+    padding: 2%;
+}
+
+.btn {
+    //llamamos a todos los elementos que tienen la class btn reciben las propiedades del mixin btn
+    text-align: center;
+    margin-top: 20px;
+    a {
+        @include btn ($corporativo-rojo); //para pasarle el color que queremos a la clase btn
+        &:hover {
+            @include btn-hover(&$corporativo-rojo);
+        }
+    }
+    &.gris {
+        a {
+            @include btn ($corporativo-gris); //para pasarle el color que queremos a la clase btn
+            &:hover {
+                @include btn-hover($corporativo-gris);
+            }
+        }
+    }
+}
+
+@media(min-width:576px) {}
+
+@media(min-width: 768px) {
+    .col-6,
+    .col-3,
+    .col-8,
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media(min-width: 992px) {
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+}
+
+@media(min-width: 1200px) {}
+
+//[class *=col-] //seleccione todos los class que empiecen por col
+//cuando se selecciona por atributos podemos seleccionar todos los "input"por ejemplo, usamos los corchetes, en el caso anterior 
+//seleccionaran los class que tienen los col -12, otro ejemplo : todos los div que tenga la clase col

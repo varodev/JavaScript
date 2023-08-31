@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamiento</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/ej_5_15.js" defer></script>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <header>
+            <div id="cabecera">
+                <div id="logo">
+                    <img src="imagenes/ubuntu.png" alt="logo ubuntu" width="100px" />
+                </div>
+
+                <div id="buscador">
+                    <input type="text" name="cajaTexto" value="Buscar" />
+                    <input type="button" name="buscar" value="buscar" />
+                </div>
+
+            </div>
+            <nav>
+                <ul id="menuArriba">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tienda">Tienda</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+
+            </nav>
+
+        </header>
+        <div id="contenedorCentral">
+            <aside>
+                <div id="asideArriba">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis
+                        aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+                <div id="asideAbajo">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis
+                        aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+                </div>
+
+            </aside>
+            <!----------------------------------------------------------------->
+            <div id="principal">
+                <div id="central">
+                    <div id="id1" class="divInterno"></div>
+                    <div id="id2" class="divInterno"></div>
+                    <div id="id3" class="divInterno"></div>
+                    <div id="id4" class="divInterno"></div>
+                    <div id="id5" class="divInterno"></div>
+                    <div id="id6" class="divInterno"></div>
+
+                    <input type="button" value="Cambiar Colores" onClick="lanzarCambioColores();" />
+                    <input type="button" value="Parar Cambio Colores" onClick="pararCambioColores();" />
+                </div>
+                <div id="derecha">
+                    <input type="text" id="milisegundos" value="escriba en milisegundos">
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul id="menuAbajo">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tienda">Tienda</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

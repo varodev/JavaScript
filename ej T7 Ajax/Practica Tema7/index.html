@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/motor.js" defer></script>
+    <title>Practica Ajax</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <label for="moneda origen">Moneda origen</label>
+        <select name="divisa" id="moneda_origen">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+          </select>
+
+        <label for="moneda destino">Moneda destino</label>
+        <select name="divisa" id="moneda_destino">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="GBP">GBP</option>
+          </select>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cajaCantidad" required>
+
+        <input type="button" value="Cargar datos" onClick="cargarDatos();">
+    </div>
+    <div id="resultado">
+        <p id="parrafo-resultado"></p>
+    </div>
+</body>
+
+</html>

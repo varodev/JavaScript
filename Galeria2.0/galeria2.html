@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>GaleriA</title>
+</head>
+
+<body>
+    <section class="flex">
+        <div class="col-2">
+            <button onclick="pulsaAvanzar();"><img src="img/flechaDer.png" alt=""></button>
+        </div>
+        <div class="col-8">
+
+            <img src="img/inicial.jpg" alt="" id="inicial" width="100%">
+            <div>
+                <h2 id="texto"></h2>
+            </div>
+        </div>
+        <div class="col-2">
+            <button onclick="pulsaRetroceder();"><img src="img/flechaIzq.png" alt=""></button>
+        </div>
+    </section>
+
+    <div class="punto">
+        <img src="img/punto.jpg" alt="img1" id="0" onclick="cambiarPunto(event);">
+        <img src="img/punto.jpg" alt="img2" id="1" onclick="cambiarPunto(event);">
+        <img src="img/punto.jpg" alt="img3" id="2" onclick="cambiarPunto(event);">
+        <img src="img/punto.jpg" alt="img4" id="3" onclick="cambiarPunto(event);">
+        <img src="img/punto.jpg" alt="img5" id="4" onclick="cambiarPunto(event);">
+        <img src="img/punto.jpg" alt="img6" id="5" onclick="cambiarPunto(event);">
+    </div>
+
+    <script src="js/js.js "></script>
+</body>
+
+</html>

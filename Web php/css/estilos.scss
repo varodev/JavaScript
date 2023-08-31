@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    background-color: #686823;
+    text-align: center;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 10px;
+        display: block;
+        color: black;
+        border-bottom: 1px solid black;
+        &:hover{
+            background-color: #f2ac3a;
+        }
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    width: 100%;
+    padding: 2%;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.alinear{
+    align-items: center;
+}
+
+button{
+    background-color: #f2ac3a;
+    padding: 5px;
+    border-radius: 5px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+h2{
+    padding: 5px;
+}
+
+p{
+    padding: 5px;
+}
+
+.iconos {
+    padding: 3% 1%;
+    font-size: 40px;
+    color:#eead41;
+    
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.derecha{
+    text-align: right;
+}
+
+@media (min-width: 576px) { 
+
+}
+
+@media (min-width: 768px) {
+    nav{
+        a{
+            display: inline-block;
+            border-bottom: none;
+        }
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-6{
+        width: 50%;
+    }
+    .col-3{
+        width: 25%;
+    }
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,9 @@
+$color-fondo:blue;
+$color-h1:red;
+@mixin boton {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: $color-fondo;
+    color: white;
+    border: 1px solid $color-fondo;
+}

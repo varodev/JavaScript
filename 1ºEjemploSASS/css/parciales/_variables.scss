@@ -1,0 +1,51 @@
+/*VARIABLES*/
+
+$corporativo-rojo:red; //variables
+$corporativo-gris:grey;
+$blanco: white;
+@mixin nav-a {
+    background-color: $corporativo-rojo;
+    color: $blanco;
+    padding: 10px;
+    border-bottom: 1px solid $blanco; //solo sale el borde en el ultimo.
+}
+
+@mixin nav-a-sobre {
+    //funcion cambiamos los colores
+    color: $corporativo-rojo;
+    background-color: $blanco;
+}
+
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap; //es para que sigan en linea, es para el uso de grift
+}
+
+@mixin btn($color) {
+    //admite parametros para poner diferent colores de botones con el mismo mixin, $color es nuetra variable.
+    //background-color: $corporativo-rojo; Esto era lo que teniamos antes, ahora a background le pasamos el valor del paremetro color
+    background-color: $color;
+    @if($color==$corporativo-rojo) {
+        color: $blanco;
+        border: 1px solid $color;
+    }
+    @else {
+        color: $corporativo-rojo;
+        border: 1px solid $corporativo-rojo;
+    }
+    padding: 10 px 15 px; // espacios arriba y abajo // izq y derecha
+    border-radius: 10px; //esquina redondeadas del botton
+}
+
+@mixin btn-hover($color) {
+    @if($color==$corporativo-rojo) {
+        color: $blanco;
+        background-color: $blanco;
+        //border: 1px solid $color;
+    }
+    @else {
+        color: $blanco;
+        background-color: $corporativo-rojo;
+        //border: 1px solid $corporativo-rojo;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;cAEc;AEFd,aAAa;AAEb,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACzB;;ACND,gDAAgD;AAGhD,UAAU;AAEV,AAAA,MAAM,CAAC;EACH,gBAAgB,EFNP,IAAI;CEUhB;;AALD,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,KAAK,EAAE,KAAK;CACf;;ACTL,UAAU;AAEV,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,IAAI;CASnB;;AAVD,AAEI,OAFG,CAEH,CAAC,CAAC;EHDF,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,SAAS;EAClB,gBAAgB,EALP,IAAI;EAMb,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,GAAG,CAAC,KAAK,CAPR,IAAI;CGWZ;;AATL,AAIQ,OAJD,CAEH,CAAC,AAEI,MAAM,CAAC;EACJ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EHRJ,IAAI;EGSL,MAAM,EAAE,GAAG,CAAC,KAAK,CHThB,IAAI;CGUR;;ACVT,UAAU",
+    "sources": [
+        "estilos.scss",
+        "parciales/_variables.scss",
+        "parciales/_generales.scss",
+        "parciales/_header.scss",
+        "parciales/_main.scss",
+        "parciales/_footer.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}

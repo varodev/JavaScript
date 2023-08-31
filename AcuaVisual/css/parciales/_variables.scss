@@ -1,0 +1,82 @@
+/*VARIABLES*/
+
+
+/*https://wireframe.cc/qEHggx*/
+
+$verde: rgb(44, 143, 105);
+$amarillo:rgb(240, 240, 125);
+$negro: black;
+$blanco: white;
+@mixin btn {
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 2px 2px dimgray;
+    background-color: $verde;
+    border-radius: 10px;
+    padding: 6px 6px;
+    margin-top: 10px;
+    display: inline-block;
+    &:hover {
+        background-color: blue;
+    }
+}
+
+@mixin nav-a {
+    background-color: $verde;
+    color: $blanco;
+    padding: 10px;
+    border-bottom: 1px solid $negro;
+    text-transform: uppercase;
+}
+
+@mixin nav-a-sobre {
+    //funcion cambiamos los colores
+    color: $negro;
+    background-color: $blanco;
+}
+
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin minus {
+    text-transform: initial;
+    color: black;
+}
+
+@mixin centrar {
+    text-align: center;
+}
+
+@mixin SectionClass {
+    width: 80%;
+    margin: 10px auto;
+}
+
+@mixin espacio {
+    padding: 8%;
+}
+
+@mixin espacioh2 {
+    padding: 2%;
+}
+
+@mixin izq {
+    text-align: left;
+}
+
+@mixin der {
+    text-align: right;
+}
+
+@mixin p_peces {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@mixin tamañoLetra {
+    font-size: 150%;
+}

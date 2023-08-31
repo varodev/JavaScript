@@ -1,0 +1,44 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    width: 90%;
+    margin: 20px auto;
+    div {
+        &.slider {
+            /*el & habla con el de automaticamente más arriba*/
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.col-8 {
+    width: 66.66%;
+    padding: 5px;
+}
+
+
+/*https://learnjavascript.online/*
+/*3wschool*/
+
+
+/*# sourceMappingURL=estilos.css.map */

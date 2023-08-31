@@ -1,0 +1,15 @@
+#arriba {
+    background-color: red;
+    width: 500px;
+    height: 125px;
+}
+
+#resultado {
+    width: 500px;
+    height: 500px;
+}
+
+#imagenSeleccionada {
+    width: 500px;
+    height: 375px;
+}

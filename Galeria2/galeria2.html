@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Galeria2</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="slider">
+            <div class="cursor" onclick="pulsar('izquierda')"><img src="img/flecha2.png" alt=""></div>
+
+            <div class="col-8"><img src="img/foto2.jpg" alt="">
+                <img src="img/foto3.jpg" alt="">
+                <img src="img/foto4.jpg" alt="">
+                <img src="img/foto5.jpg" alt="">
+                <img src="img/foto6.jpg" alt="">
+                <img src="img/foto4.jpg" alt="">
+                <div>
+                    <h2 id=texto></h2>
+                </div>
+            </div>
+            <div class="cursor" onclick="pulsar('derecha')"><img src="img/flecha1.png" alt=""></div>
+        </div>
+        </div>
+
+    </section>
+
+    <div class="dot">
+        <img src="img/circle.jpg" alt="" id="0" onclick="cambiarPunto(event);">
+        <img src="im/circle.jpg " alt="" id="1" onclick="cambiarPunto(event);">
+        <img src="img/circle.jpg " alt="" id="2" onclick="cambiarPunto(event);">
+        <img src=" img/circle.jpg " alt="" id="3" onclick="cambiarPunto(event);">
+        <img src=" img/circle.jpg " alt="" id="4" onclick="cambiarPunto(event);">
+        <img src=" img/circle.jpg " alt="" id="5" onclick="cambiarPunto(event);">
+    </div>
+
+    <script src="sliderjs.js/slider.js "></script>
+
+</body>
+
+</html>

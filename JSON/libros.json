@@ -1,0 +1,43 @@
+{
+    "arrayLibrosJSON":[
+        { 
+        "isbn": "123-456-222",
+        "author": {
+            "lastname": "De Cervantes",
+            "firstname": "Miguel"
+        },
+        "editor": {
+            "lastname": "Orbegoza",
+            "firstname": "Carla"
+        },
+        "title": "El Quijote",
+        "category": ["Ficción", "Poesía"]
+    },
+    { 
+        "isbn": "456-444-222",
+        "author": {
+            "lastname": "Aligieri",
+            "firstname": "Dante"
+        },
+        "editor": {
+            "lastname": "Ridau",
+            "firstname": "José"
+        },
+        "title": "La Divina Comedia",
+        "category": ["Costumbrismo", "Historia"]
+    },
+    { 
+        "isbn": "666-786-222",
+        "author": {
+            "lastname": "Shakespeare",
+            "firstname": "William"
+        },
+        "editor": {
+            "lastname": "Timerman",
+            "firstname": "Joseph"
+        },
+        "title": "Hamlet",
+        "category": ["Ficción", "Novela"]
+    }
+                        ]
+}

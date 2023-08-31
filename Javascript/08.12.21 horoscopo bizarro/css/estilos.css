@@ -1,0 +1,38 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ section {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .col-4 {
+     width: 33.33%;
+ }
+ 
+ section {
+     margin: 50px;
+ }
+ 
+ p {
+     padding-top: 10px;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+ 
+ .oculto {
+     display: none;
+ }
+ 
+ #horoscopoIzq div {
+     cursor: pointer;
+ }
+ 
+ #horoscopoDer div {
+     cursor: pointer;
+ }

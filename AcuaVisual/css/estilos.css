@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+/*VARIABLES*/
+
+
+/*https://wireframe.cc/qEHggx*/
+
+
+/*HEADER*/
+
+
+/*Aqui metemos los estilos generales.
+También tiene que tener cada parte su media Q. 
+Cada uno tendra su media Q*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #2c8f69;
+}
+
+
+/*header {
+    background-color: cadetblue;
+}*/
+
+header {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+}
+
+header nav a {
+    display: block;
+    background-color: #2c8f69;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+.centrar {
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    header div {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    header div {
+        text-align: left;
+    }
+    header nav a {
+        display: inline-block;
+        border-bottom: none;
+    }
+}
+
+@media (min-width: 992px) {
+    header div {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    header div {
+        text-align: right;
+    }
+}
+
+
+/*CUERPO*/
+
+.col-4,
+.col-6,
+.col-3 {
+    width: 100%;
+    padding: 2%;
+}
+
+html {
+    background-image: url("../img/ultima.jpg");
+    background-size: cover;
+}
+
+section.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+div p {
+    text-align: center;
+    color: #2c8f69;
+    text-transform: uppercase;
+    font-family: "Roboto";
+}
+
+h2 {
+    text-align: center;
+    color: #1c4780;
+    font-family: "Lobster";
+    font-size: 200%;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    -webkit-box-shadow: 2px 2px dimgray;
+    box-shadow: 2px 2px dimgray;
+    background-color: #2c8f69;
+    border-radius: 10px;
+    padding: 6px 6px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+.minus {
+    text-transform: initial;
+    color: black;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.SectionClass {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.p_peces {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tamañoLetra {
+    font-size: 150%;
+}
+
+.espacioh2 {
+    padding: 2%;
+}
+
+@media (min-width: 768px) {
+    .col-3 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-3 {
+        width: 25%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+}
+
+
+/*FOOTER*/
+
+.minus {
+    text-transform: initial;
+    color: black;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.espacio {
+    padding: 8%;
+}
+
+.col-4 {
+    width: 33, 33%;
+}
+
+footer {
+    background-color: #2c8f69;
+}
+
+@media (min-width: 768px) {
+    .col-4 {
+        width: 50%;
+    }
+    .col-4footer {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-4footer {
+        width: 33.33%;
+    }
+}
+
+
+/*@media(min-width:576px){}
+@media(min-width: 768px){}
+@media(min-width: 992px){}
+@media(min-width: 1200px){}*/
+
+
+/*https://wireframe.cc/qEHggx //HOME
+https://wireframe.cc/2BNpzw //TROPICAL
+https://wireframe.cc/w1kGBS //MARINO
+https://wireframe.cc/mPAryN //PECES
+*/
+
+
+/*  .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%; 
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+        padding: 2%;
+    }
+}*/
+
+
+/*# sourceMappingURL=estilos.css.map */
